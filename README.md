@@ -16,16 +16,12 @@ _Que cosas necesitas para instalar el software y como instalarlas_
 ```
 IDE Eclipse, Spring Tool Suite
 ```
-
 ```
 Java 17, Java 8.
 ```
-
 ```
 Lombok
 ```
-
-
 ```
 JAVA_HOME, MAVEN_HOME para las variables de entorno
 ```
@@ -39,7 +35,9 @@ Tener instalado lombok en el IDE de preferencia para ejecutar.
 Cambiar servidor de puerto 8080, si ejecuta un error de puerto ocupado.
 ```
 
-## Despliegue 📦
+## Deployment 📦
+
+Realizar un fork o clon del proyecto, importar al IDE de preferencia, para ejecutar en consola realizar el build (empaquetado) de la aplicación.
 
 ## Construido con 🛠️
 
