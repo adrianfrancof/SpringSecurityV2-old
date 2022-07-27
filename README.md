@@ -53,6 +53,9 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 * [Oracle Database]()
 * [H2 Database]()
 * [MySQL Database]()
+* [Thymeleaf]()
+* [HTML]()
+* [CSS]()
 
 ## Contribuyendo 🖇️
 
