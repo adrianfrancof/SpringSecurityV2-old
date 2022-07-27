@@ -59,7 +59,7 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 ## Contribuyendo 🖇️
 
-Por favor lee el [CONTRIBUTING.md](https://github.com/adrianedutecno/spring-security.git) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+Por favor lee el [CONTRIBUTING.md](https://github.com/adrianfrancof/SpringSecurityV2-old.git) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
 
 ## Versionado 📌
