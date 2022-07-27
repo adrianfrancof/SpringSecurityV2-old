@@ -41,9 +41,6 @@ Cambiar servidor de puerto 8080, si ejecuta un error de puerto ocupado.
 
 ## Despliegue 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
-
-
 ## Construido con 🛠️
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
@@ -61,14 +58,11 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 Por favor lee el [CONTRIBUTING.md](https://github.com/adrianfrancof/SpringSecurityV2-old.git) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
-
 ## Versionado 📌
-
-
 
 ## Autores ✒️
 
-_Java Full Stack_
+https://github.com/adrianfrancof
 
 ## Licencia 📄
 
