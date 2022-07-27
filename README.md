@@ -24,14 +24,17 @@ Java 17, Java 8.
 ```
 Lombok
 ```
-### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+
+```
+JAVA_HOME, MAVEN_HOME para las variables de entorno
+```
+### Instalación 🔧
 
 ```
 Importar proyecto al IDE de preferencia para ejecutar en servidor.
+Tener instalado lombok en el IDE de preferencia para ejecutar.
 ```
-
 ```
 Cambiar servidor de puerto 8080, si ejecuta un error de puerto ocupado.
 ```
