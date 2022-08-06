@@ -7,9 +7,11 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
+import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 @EnableWebSecurity
 @Configuration
@@ -75,6 +77,17 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
  		.and()
  		.exceptionHandling()
  		.accessDeniedPage("/recurso-prohibido");
+ 		
+ 		http
+		.logout()
+        .logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
+        .logoutSuccessUrl("/login")
+        .deleteCookies("JSESSIONID")
+        .invalidateHttpSession(true);
+				
+		http.sessionManagement()
+        .sessionCreationPolicy(SessionCreationPolicy.IF_REQUIRED)
+        .invalidSessionUrl("/login");
  	}
  	
  	//se inicializa bean de encoder de contraseñas
