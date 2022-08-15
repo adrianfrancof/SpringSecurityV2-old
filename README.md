@@ -65,4 +65,6 @@ https://github.com/adrianfrancof
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/).
+
+Este proyecto está bajo la Licencia - mira el archivo [LICENSE.md](LICENSE.md) para detalles
